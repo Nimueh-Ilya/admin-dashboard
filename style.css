@@ -152,6 +152,17 @@ body {
   display: flex;
   flex-direction: column;
 }
+.annoucement-1 {
+  display: flex;
+  flex-direction: column;
+}
+.divider {
+  border-bottom: 2px solid #bbb;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 0px;
+  justify-self: end;
+}
 .trending {
   grid-column: 2/3;
   grid-row: 2/3;
@@ -175,11 +186,34 @@ body {
   flex-grow: 1;
   background-color: white;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.annoucement-container > div {
+  color: black;
+  text-align: center;
+  flex-grow: 1;
 }
 .trending-container {
   flex-grow: 1;
   background-color: white;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.trending-container > div {
+  flex-grow: 1;
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+}
+.trending-1,
+.trending-2 {
+  display: flex;
+  flex-direction: column;
 }
 .projects-container {
   display: grid;
@@ -194,6 +228,9 @@ body {
   color: black;
   height: 200px;
   border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 button,
 li {
